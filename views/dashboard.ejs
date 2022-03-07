@@ -1,0 +1,15 @@
+<% if(locals.user) { %>
+    <h2>Welcome
+        <span id="profile-name">
+            <%=user.username%>
+        </span>
+    </h2>
+    <p>Your email:
+        <%= user.email%>
+    </p>
+
+    <% } %>
+
+        <a href="/user/signout">
+            <input type="button" value="logout">
+        </a>

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: teal;
+    font-family: sans-serif;
+}
+
+#link {
+    color: blue;
+}
+
+.login-container {
+    margin: 200px auto 0;
+    padding: 20px 30px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    background-color: #333333;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.login-container h1 {
+    margin-bottom: 30px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#form input[type="submit"] {
+    margin: 20px auto 0;
+    width: 50%;
+    background-color: rgb(9, 9, 116);
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+#form input[type="submit"]:hover {
+    background-color: rgb(9, 9, 116, .3);
+}
+
+/* ========Message ==============*/
+#error-message {
+    margin-bottom: 10px;
+    background-color: red;
+    color: #fff;
+}
+#profile-name {
+    color: green;
+    text-transform: uppercase;
+}
+
+#add-message {
+    margin-bottom: 10px;
+    background-color: lightgreen;
+    color: #000;
+}
+
+/* ========dashboard page ==============*/
+
+.login-container input[type="button"] {
+    padding: 10px;
+    margin: 20px auto 0;
+    width: 50%;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: rgb(9, 9, 116);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.login-container p {
+    margin-top: 20px;
+}
+
+.login-container input[type="button"]:hover {
+    background-color: rgb(9, 9, 116, .3);
+}
